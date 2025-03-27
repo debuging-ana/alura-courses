@@ -10,20 +10,20 @@
 // - Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!
 
 
-alert('Bem vindos ao nosso site!');
+alert('Welcome to my website!');
 
-let nome = "Lua";
-let idade = 25;
-let numeroDeVendas = 50;
-let saldoDisponivel = 1000;
+let name = "Lua";
+let age = 25;
+let numberSold = 50;
+let balanceAvailable = 1000;
 
-alert('Erro! Preenche todos os campos!');
-let mensagemDeErro = "Erro! Preencha todos os campos";
-alert(mensagemDeErro);
+alert('Error! Fill all the fields!');
+let errorMessage = "Error! Fill all the fields!";
+alert(errorMessage);
 
-nome = prompt('Qual seu nome?');
-idade = prompt('Qual sua idade?');
+name = prompt('Whats your name?');
+age = prompt('How old are you?');
 
-if (idade >= 18){
-    alert('Pode tirar a habilitacao!');
+if (age >= 18){
+    alert('You can get a drive license');
 }
